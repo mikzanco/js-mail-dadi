@@ -19,6 +19,7 @@ if(email.includes(emailSelected)){
 // for(i = 0; i < email.length; i++){
 //     if(email[i] === emailSelected){
 //         emailValida = true;
+//         console.log('ok')
 //     }
 // }
 
