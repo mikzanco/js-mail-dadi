@@ -13,11 +13,11 @@ const button = document.querySelector('#bottone');
 button.addEventListener('click', function(){
 
     const randomIndexPc = Math.floor(Math.random() * numeriPc.length);
-    console.log(randomIndexPc);
+    // console.log(randomIndexPc);
     document.querySelector('#outputPc').innerHTML += numeriPc[randomIndexPc]
 
     const randomIndexUm = Math.floor(Math.random() * numeriUmano.length);
-    console.log(randomIndexUm);
+    // console.log(randomIndexUm);
     document.querySelector('#outputUm').innerHTML += numeriUmano[randomIndexUm]
 
     if (randomIndexUm > randomIndexPc){

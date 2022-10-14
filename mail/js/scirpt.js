@@ -7,13 +7,24 @@ const email = ['mikyzancolo08@gmail.com', 'baubaumiciomicio@gmail.com', 'nonsono
 
 const emailSelected = prompt('Scrivi la tua email');
 
-for(i = 0; i < email.length; i++){
-    console.log(output)
-    if(emailSelected === email[i]){
-         output.innerHTML = 'puoi accedere'
-         
-    }else{
-        output.innerHTML = 'email not found'
-    }
+let emailValida = false;
 
+if(email.includes(emailSelected)){
+    output.innerHTML = 'puoi accedere'
+         
+}else{
+    output.innerHTML = 'email not found'
 }
+
+// for(i = 0; i < email.length; i++){
+//     if(email[i] === emailSelected){
+//         emailValida = true;
+//     }
+// }
+
+// if(emailValida == true{
+//     output.innerHTML = 'puoi accedere'
+
+// }else{
+//     output.innerHTML = 'email not found'
+// }
